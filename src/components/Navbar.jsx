@@ -2,15 +2,17 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className="navbar bg-base-100 shadow-md">
+    <div className="navbar shadow-lg bg_secondary_color rounded-xl text-white">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">বন্ধন</a>
+        <Link to={'/'} className="btn btn-ghost text-2xl color_primary ">
+          বন্ধন
+        </Link>
       </div>
       <div className="mx-4">
         <Link
           to="/signup"
-          className="text-green-800 bg-green-100 py-1 px-4 rounded-full border border-green-500
-        hover:bg-green-200"
+          className="bg-[#a0e235b3] text-green-900 py-1 px-4 rounded-full
+        hover:bg-[#a0e2358e]"
         >
           একাউন্ট খুলুন
         </Link>

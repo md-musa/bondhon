@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     name: 'ফজলি আম',
-    img: 'https://impro.usercontent.one/appid/oneComShop/domain/myexoticfruit.com/media/myexoticfruit.com/webshopmedia/Mango%20-%20black%20(Jamaica)-1691586458683.jpg?&withoutEnlargement&resize=1920+9999&quality=85&progressive',
+    img: 'https://wallpapers.com/images/hd/fresh-green-mangoes-cluster-w3tc20abfdweeea3-2.png',
     price: 50,
     location: 'রাজশাহী',
     description:
@@ -20,7 +20,7 @@ export const data = [
   {
     id: 3,
     name: 'সিলেটি কমলা',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg',
+    img: 'https://png.pngtree.com/png-clipart/20230117/ourmid/pngtree-green-orange-orange-fruit-png-image_6161876.png',
     price: 30,
     location: 'সিলেট',
     description:

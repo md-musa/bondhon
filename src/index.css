@@ -1,8 +1,30 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+  /* font-family: 'SolaimanLipi', sans-serif; */
+}
+
 body {
   min-height: 200vh;
-  background: linear-gradient(135deg, #0c2609, #143916, #1c4b1d, #256225, #307d30);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #060a00, #162105, #162103, #1e2d06, #2b782b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.color_primary {
+  @apply text-[#9fe235];
+}
+
+.color_secondary {
+  @apply text-[#13512c];
+}
+.bg_secondary_color {
+  @apply bg-[#13512c];
 }
